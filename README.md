@@ -1,5 +1,6 @@
 # Kalkulator BMI 
-oleh **wapiputra**
+
+oleh **wapiputra** , Mini Project RevoU fundamental course
 ---
 Aplikasi **Kalkulator BMI** ini dirancang untuk menghitung Body Mass Index (BMI) berdasarkan tinggi badan, berat badan, usia, dan jenis kelamin pengguna. BMI digunakan untuk menentukan apakah berat badan seseorang kurang, normal, berlebih, atau termasuk obesitas.
 
