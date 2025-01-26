@@ -42,9 +42,9 @@ form.addEventListener('submit', (e) => {
 
     // Update hasil
     resultText.innerHTML = `<div style="text-align: center;">
-                            Jenis Kelamin: <strong>${gender === 'male' ? 'Laki-Laki' : 'Wanita'}</strong><br>
+    <strong style="font-size: 3em; color: #007BFF; font-weight:100;">${bmi}</strong><br>
+                            Jenis Kelamin: <strong>${gender === 'male' ? 'Laki-Laki' : 'Wanita'}</strong><br><br>
                             Usia: <strong>${age}</strong> tahun<br>
-                            BMI Anda: <strong style="font-size: 1.5em; color: #007BFF;">${bmi}</strong><br>
                             Kategori: <strong>${category}</strong>
                         </div>`;
 });
