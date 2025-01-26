@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator BMI</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Kalkulator BMI</h1>
+
+      <!-- BMI Form -->
+      <form id="bmiForm">
+        <div class="form-group">
+          <label for="gender">Jenis Kelamin:</label>
+          <select id="gender" required>
+            <option value="">Pilih Jenis Kelamin</option>
+            <option value="male">Laki-Laki</option>
+            <option value="female">Wanita</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="height">Tinggi Badan (cm):</label>
+          <div class="input-icon">
+            <i class="fas fa-pencil-alt"></i>
+            <input
+              type="number"
+              id="height"
+              min="1"
+              placeholder="Masukkan tinggi badan"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="weight">Berat Badan (kg):</label>
+          <div class="input-icon">
+            <i class="fas fa-pencil-alt"></i>
+            <input
+              type="number"
+              id="weight"
+              min="1"
+              placeholder="Masukkan berat badan"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="age">Usia (tahun):</label>
+          <div class="input-icon">
+            <i class="fas fa-pencil-alt"></i>
+            <input
+              type="number"
+              id="age"
+              min="1"
+              placeholder="Masukkan berat badan"
+              required
+            />
+          </div>
+        </div>
+
+        <button type="submit">Hitung BMI</button>
+      </form>
+
+      <!-- BMI Result -->
+      <div id="bmiResult" class="result">
+        <h2>Hasil BMI:</h2>
+        <p id="resultText">Isi formulir untuk melihat hasil.</p>
+      </div>
+
+      <!-- Explanation Section -->
+      <div class="explanation">
+        <h2>Apa itu BMI?</h2>
+        <p>
+          BMI (Body Mass Index) adalah metode untuk menghitung kategori berat
+          badan berdasarkan tinggi dan berat badan Anda. Kategori BMI adalah
+          sebagai berikut:
+        </p>
+        <ul>
+          <li><strong>Kurang dari 18.5:</strong> Berat badan kurang</li>
+          <li><strong>18.5 - 24.9:</strong> Berat badan normal</li>
+          <li><strong>25 - 29.9:</strong> Berat badan berlebih</li>
+          <li><strong>30 ke atas:</strong> Obesitas</li>
+        </ul>
+      </div>
+    </div>
+
+    <footer
+      style="
+        text-align: center;
+        margin-top: 20px;
+        padding: 10px;
+        background: #f0f8ff;
+        border-top: 1px solid #ccc;
+      "
+    >
+      <p>&copy; 2025 wapiputra</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
