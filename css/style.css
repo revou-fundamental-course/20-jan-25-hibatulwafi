@@ -84,3 +84,12 @@ button:hover {
     list-style: disc;
     padding-left: 20px;
 }
+
+.result-text {
+    text-align: center;
+}
+
+.result-text .bmi-score {
+    font-size: 1.5em;
+    color: #007BFF;
+}
